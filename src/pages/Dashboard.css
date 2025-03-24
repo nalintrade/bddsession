@@ -1,0 +1,114 @@
+/* Dashboard Page Styles */
+.dashboard-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Top Navigation Bar */
+  /* .top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffcc00; 
+    padding: 15px 30px;
+  } */
+  .top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  z-index: 999;
+  background-color: #ffcc00;
+  padding: 15px 30px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222; /* Dark text */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .nav-links li a:hover {
+    color: #0057b7; /* Mercury blue */
+  }
+  
+  /* Banner Section */
+  .banner {
+    background-color: #fbf304; /* Mercury Blue */
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 10px;
+  }
+  .ballnermain {
+    font-size: 36px;
+    font-weight: bold;
+    color: #222; /* Dark text */
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  }
+ 
+  
+  .banner h2 {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  .banner p {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  
+  /* Content Area */
+  .content {
+    padding: 30px;
+    text-align: center;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+/* This assumes your navbar height is around 60px. Adjust if needed */
+main, .home-container {
+  padding-top: 80px;
+}

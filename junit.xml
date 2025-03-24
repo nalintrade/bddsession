@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="0" errors="0" time="2.177">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2025-03-24T01:43:26" time="1.187" tests="3">
+    <testcase classname=" renders the Profile form with all fields" name=" renders the Profile form with all fields" time="0.131">
+    </testcase>
+    <testcase classname=" allows user to edit profile fields" name=" allows user to edit profile fields" time="0.027">
+    </testcase>
+    <testcase classname=" shows success alert and navigates on save" name=" shows success alert and navigates on save" time="0.017">
+    </testcase>
+  </testsuite>
+</testsuites>
