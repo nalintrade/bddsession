@@ -2,12 +2,12 @@ import { expect } from '@playwright/test'
 class LoginPage {
 
     async enterUsername(page, username) {
-      await page.locator('[data-test-id="Login-usernameInput"]').fill(username);
+      await page.locator('[data-testid="Login-usernameInput"]').fill(username);
       // await page.locator('input[type="text"]').fill(username);
     }    
 
     async enterPassword(page, password) {
-      await page.locator('[data-test-id="Login-passwordInput"]').fill(password);
+      await page.locator('[data-testid="Login-passwordInput"]').fill(password);
       // await page.getByTestId('Login-passwordInput').fill(password);
     }
   
@@ -16,7 +16,7 @@ class LoginPage {
     }
   
     async submit(page) {
-      await page.locator('[data-test-id="Login-submitButton"]').click();
+      await page.locator('[data-testid="Login-submitButton"]').click();
     }
   
     async login(page, username, password) {

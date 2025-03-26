@@ -2,6 +2,7 @@
     "version": "0.2.0",
     "configurations": [
 
+
       
       {
         "type": "node",
@@ -12,7 +13,7 @@
           "--exit",
           "--require", "tests/stepDefinitions/**/*.mjs",
           // "tests/features/**/*.feature"
-          "tests/features/VehicleInformationManagement.feature"
+          "tests/features/GetOnlineQuote.feature"
           // "tests/features/Login.feature"
           
         ],

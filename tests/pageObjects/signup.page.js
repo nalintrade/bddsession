@@ -1,18 +1,18 @@
 class SignupPage {
   async enterUsername(page, username) {
-    await page.locator('[data-test-id="Signup-usernameInput"]').fill(username);
+    await page.locator('[data-testid="Signup-usernameInput"]').fill(username);
   }
 
   async enterPassword(page, password) {
-    await page.locator('[data-test-id="Signup-passwordInput"]').fill(password);
+    await page.locator('[data-testid="Signup-passwordInput"]').fill(password);
   }
 
   async enterConfirmPassword(page, confirmPassword) {
-    await page.locator('[data-test-id="Signup-confirmPasswordInput"]').fill(confirmPassword);
+    await page.locator('[data-testid="Signup-confirmPasswordInput"]').fill(confirmPassword);
   }
 
   async submit(page) {
-    await page.locator('[data-test-id="Signup-submitButton"]').click();
+    await page.locator('[data-testid="Signup-submitButton"]').click();
   }
 
   async fillForm(page, { username, password, confirmPassword }) {
@@ -23,15 +23,15 @@ class SignupPage {
 
   
   async submit(page) {
-    await page.locator('[data-test-id="Signup-submitButton"]').click();
+    await page.locator('[data-testid="Signup-submitButton"]').click();
   }
 
   async getErrorMessage(page) {
-    return await page.locator('[data-test-id="Signup-errorMessage"]').textContent();
+    return await page.locator('[data-testid="Signup-errorMessage"]').textContent();
   }
 
   async clickLoginLink(page) {
-    await page.locator('[data-test-id="Signup-loginLink"]').click();
+    await page.locator('[data-testid="Signup-loginLink"]').click();
   }
 
   async confirmPassword(page, password) {

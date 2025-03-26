@@ -7,7 +7,6 @@ import Home from "./pages/Home.js";
 import Profile from "./pages/Profile.js";
 
 
-
 function App() {
   return (
     // <Router>
@@ -32,10 +31,6 @@ function App() {
         <Route path="/move-house" element={<div><h2>Move House Page</h2><p className="home-link">
           <a href="/dashboard" className="back-home">← Back to Dashboard</a>
         </p></div>} />
-
-
-        
-        
         <Route path="/support" element={<div><h2>Support Page</h2><p className="home-link">
           <a href="/dashboard" className="back-home">← Back to Dashboard</a>
         </p></div>} />

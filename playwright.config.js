@@ -13,6 +13,6 @@ export default defineConfig({
     actionTimeout: 5000,
   },
   use: {
-    testIdAttribute: 'data-test-id'  // Ensure this matches your setup
+    testIdAttribute: 'data-testid'  // Ensure this matches your setup
   }
 });
