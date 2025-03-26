@@ -20,7 +20,7 @@ Feature: Vehicle Insurance Quotation
     And I continue to the next step
     Then I should arrive at the vehicle usage step
 
-  @smoke @happy-path @vehicle-details
+  @smoke @happy-path @vehicle-usage
   Scenario: Provide valid vehicle usage details
     Given I have entered valid vehicle information
     When I specify "12000" as the annual mileage
