@@ -1,11 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="3" failures="0" errors="0" time="2.177">
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2025-03-24T01:43:26" time="1.187" tests="3">
-    <testcase classname=" renders the Profile form with all fields" name=" renders the Profile form with all fields" time="0.131">
+<testsuites name="jest tests" tests="19" failures="0" errors="0" time="7.527">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2025-03-26T08:23:49" time="3.672" tests="3">
+    <testcase classname=" renders the Profile form with all fields" name=" renders the Profile form with all fields" time="0.243">
     </testcase>
-    <testcase classname=" allows user to edit profile fields" name=" allows user to edit profile fields" time="0.027">
+    <testcase classname=" allows user to edit profile fields" name=" allows user to edit profile fields" time="0.051">
     </testcase>
-    <testcase classname=" shows success alert and navigates on save" name=" shows success alert and navigates on save" time="0.017">
+    <testcase classname=" shows success alert and navigates on save" name=" shows success alert and navigates on save" time="0.024">
+    </testcase>
+  </testsuite>
+  <testsuite name="GetQuote Component" errors="0" failures="0" skipped="0" timestamp="2025-03-26T08:23:48" time="4.231" tests="4">
+    <testcase classname="GetQuote Component renders all input fields and the Next button" name="GetQuote Component renders all input fields and the Next button" time="0.11">
+    </testcase>
+    <testcase classname="GetQuote Component shows error messages when submitting empty form" name="GetQuote Component shows error messages when submitting empty form" time="0.025">
+    </testcase>
+    <testcase classname="GetQuote Component shows validation error for year out of range" name="GetQuote Component shows validation error for year out of range" time="0.024">
+    </testcase>
+    <testcase classname="GetQuote Component submits form successfully with valid inputs" name="GetQuote Component submits form successfully with valid inputs" time="0.028">
+    </testcase>
+  </testsuite>
+  <testsuite name="VehicleUsage Component" errors="0" failures="0" skipped="0" timestamp="2025-03-26T08:23:48" time="4.229" tests="6">
+    <testcase classname="VehicleUsage Component renders all input fields and buttons" name="VehicleUsage Component renders all input fields and buttons" time="0.122">
+    </testcase>
+    <testcase classname="VehicleUsage Component initial field values are empty" name="VehicleUsage Component initial field values are empty" time="0.016">
+    </testcase>
+    <testcase classname="VehicleUsage Component shows errors for all empty fields on Next click" name="VehicleUsage Component shows errors for all empty fields on Next click" time="0.029">
+    </testcase>
+    <testcase classname="VehicleUsage Component shows error for invalid mileage input" name="VehicleUsage Component shows error for invalid mileage input" time="0.021">
+    </testcase>
+    <testcase classname="VehicleUsage Component navigates to /driver-information with valid inputs" name="VehicleUsage Component navigates to /driver-information with valid inputs" time="0.031">
+    </testcase>
+    <testcase classname="VehicleUsage Component Back button navigates to /get-quote" name="VehicleUsage Component Back button navigates to /get-quote" time="0.017">
+    </testcase>
+  </testsuite>
+  <testsuite name="QuoteSummary Component" errors="0" failures="0" skipped="0" timestamp="2025-03-26T08:23:49" time="4.209" tests="6">
+    <testcase classname="QuoteSummary Component renders quote summary container and heading" name="QuoteSummary Component renders quote summary container and heading" time="0.151">
+    </testcase>
+    <testcase classname="QuoteSummary Component displays quote number, price, and frequency" name="QuoteSummary Component displays quote number, price, and frequency" time="0.023">
+    </testcase>
+    <testcase classname="QuoteSummary Component renders all quote benefits with tick marks" name="QuoteSummary Component renders all quote benefits with tick marks" time="0.029">
+    </testcase>
+    <testcase classname="QuoteSummary Component renders navigation buttons" name="QuoteSummary Component renders navigation buttons" time="0.017">
+    </testcase>
+    <testcase classname="QuoteSummary Component navigates to /coverage-selection on Back button click" name="QuoteSummary Component navigates to /coverage-selection on Back button click" time="0.021">
+    </testcase>
+    <testcase classname="QuoteSummary Component navigates to /policy-application on Proceed button click" name="QuoteSummary Component navigates to /policy-application on Proceed button click" time="0.01">
     </testcase>
   </testsuite>
 </testsuites>
