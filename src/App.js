@@ -5,6 +5,9 @@ import Signup from "./pages/Signup.js";
 import Dashboard from "./pages/Dashboard.js";
 import Home from "./pages/Home.js";
 import Profile from "./pages/Profile.js";
+import GetQuote from "./pages/GetQuote.js";
+
+
 
 
 function App() {
@@ -31,6 +34,9 @@ function App() {
         <Route path="/move-house" element={<div><h2>Move House Page</h2><p className="home-link">
           <a href="/dashboard" className="back-home">← Back to Dashboard</a>
         </p></div>} />
+        <Route path="/get-quote" element={<GetQuote />} />
+    
+        
         <Route path="/support" element={<div><h2>Support Page</h2><p className="home-link">
           <a href="/dashboard" className="back-home">← Back to Dashboard</a>
         </p></div>} />

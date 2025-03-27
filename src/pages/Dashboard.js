@@ -25,6 +25,7 @@ const Dashboard = () => {
           <li><Link to="/change-plan" data-testid="Dashboard-link-ChangePlan">Change Plan</Link></li>
           <li><Link to="/move-house" data-testid="Dashboard-link-MoveHouse">Move House</Link></li>
           <li><Link to="/profile" data-testid="Dashboard-link-Profile">Profile</Link></li>
+          <li><Link to="/get-quote" data-testid="Dashboard-link-GetQuote">Get a Quote</Link></li>
           <li><Link to="/support" data-testid="Dashboard-link-Support">Support</Link></li>
         </ul>
       </nav>
