@@ -1,10 +1,6 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 
 # 🚀 BDD Hands-On Training Session: Vehicle Insurance Quotation App
-
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 This repository contains the source code and test automation setup for a hands-on Behavior-Driven Development (BDD) training session. Participants will experience a full end-to-end BDD workflow across business, development, and test disciplines.
 
 ---
