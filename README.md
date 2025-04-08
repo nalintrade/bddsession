@@ -51,6 +51,7 @@ npm start
 
 Visit: [http://localhost:3000](http://localhost:3000)
 
+![Demo app Home page.](Home.png)
 ---
 
 ## 🎯 Hands-On Session Breakdown
@@ -69,6 +70,19 @@ Visit: [http://localhost:3000](http://localhost:3000)
 | 8 | Add App Page (V2-4) | Progressively implement app & pass all tests |
 | 9 | Final Review | Showcase green report & BDD value |
 | 10 | Retrospective | Review BDD efficiency & improvements |
+---
+## 🚦 CI setup - Jenkins
+### Jenkins pipeline 
+![Jenkins pipeline.](LocalJenkinsPipeline.png)
+
+### Allure BDD feature dashboard. 
+
+#### Start of the Sprint 0% passing
+![BDD dashboard.](JenkinsDashboard_0.png)
+#### Start of the Sprint 60% passing
+![BDD dashboard.](JenkinsDashboard_50.png)
+#### Start of the Sprint 1000% passing
+![BDD dashboard.](JenkinsDashboard_100.png)
 
 ---
 
