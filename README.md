@@ -79,9 +79,9 @@ Visit: [http://localhost:3000](http://localhost:3000)
 
 #### Start of the Sprint 0% passing
 ![BDD dashboard.](JenkinsDashboard_0.png)
-#### Start of the Sprint 60% passing
+#### During of the Sprint some of the tests passing. Indicates the progress. 
 ![BDD dashboard.](JenkinsDashboard_50.png)
-#### Start of the Sprint 1000% passing
+#### End of the Sprint 100% passing
 ![BDD dashboard.](JenkinsDashboard_100.png)
 
 ---
